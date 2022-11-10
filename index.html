@@ -21,11 +21,29 @@
            </div>
            <div class="area3">
              <img src="https://i.ibb.co/4Vg1dD8/Female-Avatar.jpg" alt="Female-Avatar" style="width: 10%; height: 10%;">                
-             <p>Michelle Appleton <br><span>20 Jun 2020</span></p>
-             <i class="fa-solid fa-share"></i>
+             <p class="para3">Michelle Appleton <br><span>28 Jun 2020</span></p>
+             <i class="fa-solid fa-share tooltip" id="shareicon">
+               <span class="tooltiptext hidden" id="socialicons">
+                 <p class="para4">S &nbspH &nbspA &nbspR &nbspE</p>
+                 <i class="fa-brands fa-facebook-f faceb"></i>                 
+                 <i class="fa-brands fa-twitter twit"></i>  
+                 <i class="fa-brands fa-pinterest pint"></i>               
+               </span>
+             </i>
            </div>
         </section>
     </div>
-    
+<script>
+ <!--
+  const shareicon = document.getElementById("shareicon");
+  const tooltiptext = document.querySelector(".tooltiptext");
+
+  shareicon.addEventListener("click", () => {
+    tooltiptext.visibility.remove("hidden");
+  });
+
+-->
+
+</script>
 </body>
 </html>
