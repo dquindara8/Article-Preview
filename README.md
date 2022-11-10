@@ -13,24 +13,28 @@ This is a solution to the [Article preview component challenge on Frontend Mento
 
 ### Screenshot
 
-![Single Price Grid Component](https://user-images.githubusercontent.com/108308166/195963101-ecfdda0c-017e-45a9-b3d5-4800576163f8.jpg)
+![Article Preview image 1](https://user-images.githubusercontent.com/108308166/201229795-3ceda48a-80f9-42d9-bce2-e53906959aa7.jpg)
+
+![Article Preview image 2](https://user-images.githubusercontent.com/108308166/201229954-f01b17b2-389f-4442-8f24-f8207ec42bfa.jpg)
+
+
 
 
 ### Links
 
-- [Solution URL](https://github.com/dquindara8/Single-Price-Grid)
-- [Live site URL](https://dquindara8.github.io/Single-Price-Grid/)
+- [Solution URL](https://github.com/dquindara8/Article-Preview)
+- [Live site URL](https://dquindara8.github.io/Article-Preview/)
 
 ### Built with
 
 - HTML5 markup
 - CSS custom properties
-- CSS Grid
+- Flexbox
 
 
 ### Continued development
 
-I want to continue learning to apply @media rules to make webpages more responsive on different screen sizes and also to center the item in webpage correctly with appropiate properties..
+I want to continue learning to apply @media rules to make webpages more responsive on different screen sizes and also to center the item on webpage correctly.
 
 ## Author
 
