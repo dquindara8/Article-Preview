@@ -1,139 +1,131 @@
-*{
-    
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-html{
-    font-family: 'Overpass', sans-serif;
+html {
+  font-family: "Overpass", sans-serif;
 }
 
-body{
-    font-size: ;
-    background-color: hsl(210, 46%, 95%);
-
-   
+body {
+  font-size: ;
+  background-color: hsl(210, 46%, 95%);
 }
 
-.package{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-
+.package {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-.box2 .area2{
-    position: relative;
+.box2 .area2 {
+  position: relative;
 }
 
-.box2 .area2 .para1{
-    color: hsl(217, 19%, 35%);
-    font-family: 'Manrope', sans-serif;
-    line-height: 1.3;
-
+.box2 .area2 .para1 {
+  color: hsl(217, 19%, 35%);
+  font-family: "Manrope", sans-serif;
+  line-height: 1.3;
 }
 
-.box2 .area2 .para2{
-    color: hsl(214, 17%, 51%);
-    font-size: 11px;
-    line-height: 1.4;
-    top: 20px;
-
+.box2 .area2 .para2 {
+  color: hsl(214, 17%, 51%);
+  font-size: 11px;
+  line-height: 1.4;
+  top: 20px;
 }
 
-.package .box1 img{
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
+.package section img {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 
-.box2{
-    padding: 4px 26px;
-    border: 0;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
-    background-color: #fff;
-    width: 350px;
-    height: 220px;
-    position: relative;
+.box2 {
+  padding: 4px 26px;
+  border: 0;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: #fff;
+  width: 350px;
+  height: 220px;
+  position: relative;
 }
 
-.area3{
-    display: flex;
-    flex-direction: row;
-    position: relative;
+.area3 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
 }
 
-.area3 img{
-    border-radius: 50%;
-    top: 20px;
+.area3 img {
+  border-radius: 50%;
+  top: 20px;
 }
 
-.box2 .area3 p{
-    position: absolute;
-    left: 50px;
-    margin-top: 1.2px;
-    line-height: 1.5;
-    font-size: 11px;
-    font-weight: bold;
-    color: hsl(217, 19%, 35%);
+.box2 .area3 p {
+  position: absolute;
+  left: 50px;
+  margin-top: 1.2px;
+  line-height: 1.5;
+  font-size: 11px;
+  font-weight: bold;
+  color: hsl(217, 19%, 35%);
 }
 
-.box2 .area3 p span{
-    font-size: 11px;
-    font-weight: lighter;
-    opacity: 0.5;
-
+.box2 .area3 p span {
+  font-size: 11px;
+  font-weight: lighter;
+  opacity: 0.5;
 }
 
-.box2 .area3 .tooltip{
-    color: hsl(214, 17%, 51%);
-    position: absolute;
-    left: 265px;
-    top: 17px;
-    background-color: hsl(212, 49%, 92%);
-    border: 0;
-    border-radius: 50%;
-    padding: 4px;
+.box2 .area3 .tooltip {
+  color: hsl(214, 17%, 51%);
+  position: absolute;
+  left: 265px;
+  top: 17px;
+  background-color: hsl(212, 49%, 92%);
+  border: 0;
+  border-radius: 50%;
+  padding: 4px;
 }
 
-.area3 i span .para4{
-    color: rgba(164, 162, 162, 0.974);
-    position: absolute;
-    top: 35%;
-    left: 12%;
-    font-size: 8.5px;
+.area3 i span .para4 {
+  color: rgba(164, 162, 162, 0.974);
+  position: absolute;
+  top: 35%;
+  left: 12%;
+  font-size: 8.5px;
 }
 
-.area3 i span .faceb{
-    background-color: #fff;
-    color: hsl(217, 19%, 35%);
-    position: absolute;
-    top: 30%;
-    left: 47%;
-    padding: 3px 2px 0px 4px;
-    font-size: smaller;
+.area3 i span .faceb {
+  background-color: #fff;
+  color: hsl(217, 19%, 35%);
+  position: absolute;
+  top: 30%;
+  left: 47%;
+  padding: 3px 2px 0px 4px;
+  font-size: smaller;
 }
 
-.area3 i span .twit{
-    color: #fff;
-    position: absolute;
-    top: 32%;
-    left: 63%;
+.area3 i span .twit {
+  color: #fff;
+  position: absolute;
+  top: 32%;
+  left: 63%;
 }
 
-.area3 i span .pint{
-    color: #fff;
-    font-size: 17px;
-    position: absolute;
-    top: 30%;
-    left: 78%;
-
+.area3 i span .pint {
+  color: #fff;
+  font-size: 17px;
+  position: absolute;
+  top: 30%;
+  left: 78%;
 }
 
-.tooltip{
-    position: relative;
-    display: inline;
+.tooltip {
+  position: relative;
+  display: inline;
 }
 
 /*
@@ -144,40 +136,81 @@ body{
 }
 */
 
- .tooltiptext{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+.tooltiptext {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 
-    text-align: center;
-    visibility: hidden;
-    width: 190px;
-    background-color: hsl(217, 19%, 35%);
-    color: ;
-    border-radius: 7px;
-    padding: 21px 0;
-    position: absolute;
-    z-index: 1;
-    bottom: 190%;
-    left: -40%;
-    margin-left: -80px;
+  text-align: center;
+  visibility: hidden;
+  width: 190px;
+  background-color: hsl(217, 19%, 35%);
+  color: ;
+  border-radius: 7px;
+  padding: 21px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 190%;
+  left: -40%;
+  margin-left: -80px;
 }
 
 .tooltip .tooltiptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 8px;
-    border-style: solid;
-    border-color: hsl(217, 19%, 35%) transparent transparent transparent;
-  }
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 8px;
+  border-style: solid;
+  border-color: hsl(217, 19%, 35%) transparent transparent transparent;
+}
 
-  .area3 .tooltip:hover .tooltiptext{
-    visibility: visible;    /* Change visibility to visible to allow the share icons to show on hover. */
+.area3 .tooltip:hover .tooltiptext {
+  visibility: visible; /* Change visibility to visible to allow the share icons to show on hover. */
 }
 
 
 
+/* ----------- 374 - 450px ----------- */
+@media screen 
+  and (min-width: 375px) 
+  and (max-width: 450px){
+    .package {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .package .box1 img {
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        width: 350px;
+    }
+}
+
+/* ----------- 450 - 650px ----------- */
+@media screen 
+  and (min-width: 451px) 
+  and (max-width: 650px){
+}
+
+/* ----------- 650px - 950px ----------- */
+@media screen 
+  and (min-width: 651px)
+  and (max-width: 950px){
+}
+
+/* ----------- 950px - 1200px ----------- */
+@media screen 
+  and (min-width: 951px) 
+  and (max-width: 1200px){
+}
+
+/* ----------- 1200px + ----------- */
+@media screen 
+  and (min-width: 1201px){
+}
